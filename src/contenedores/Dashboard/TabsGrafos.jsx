@@ -59,11 +59,11 @@ const TabsGrafos = () => {
         </TabPane> 
       */}
 
-{/* 
+
     <TabPane tab="Modelos y categorías" key="6" >
 
-            <GrafosModelos />git p
-          </TabPane> */}
+            <GrafosModelos />
+          </TabPane> 
 
 
 
