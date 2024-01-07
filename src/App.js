@@ -295,7 +295,6 @@ function App() {
 }
 
 function DashboardContainer() {
- 
   return (
     <>
       <Nav />
@@ -306,20 +305,19 @@ function DashboardContainer() {
          <Route path="/modificarcliente" element={<ModificarCliente />} />
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/series" element={<Series />} />
-        <Route path="/Atributos de Personalidad" element={<DashModelo />} />
-        <Route path="/Atributos de Politicos" element={<DashModelo />} />
+        <Route path="/Atributos" element={<DashModelo />} />
+        <Route path="/Clima social" element={<DashModelo />} />
         <Route path="/Continuidad y cambio" element={<DashModelo />} />
         <Route path="/Emociones Básicas (Plutchik)" element={<DashModelo />} />
         <Route path="/Preocupaciones" element={<DashModelo />} />
-        <Route path="/Preocupaciones - Ven" element={<DashModelo />} />
+        {/* <Route path="/Preocupaciones - Ven" element={<DashModelo />} /> */}
         <Route path="/Red motivacional del voto" element={<DashModelo />} />
         <Route path="/Sentimientos" element={<DashModelo />} />
-        <Route path="/Voto Emocional y Racional" element={<DashModelo />} />
+        {/* <Route path="/Voto Emocional y Racional" element={<DashModelo />} /> */}
         
       </Routes>
      
     </>
   );
 }
-
 export default App;
